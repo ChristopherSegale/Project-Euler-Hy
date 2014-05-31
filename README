@@ -1,0 +1,7 @@
+Author: Christopher Segale
+
+This is a repository to store the solutions I have for Project Euler that I solve for using Hy, a lisp front-end for python.
+
+Hy information: http://docs.hylang.org/en/latest/index.html
+
+Link to Project Euler: http://www.projecteuler.net/
