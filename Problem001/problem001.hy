@@ -14,7 +14,10 @@
         (setv sum (+ sum i))))
     sum))
 
+(defn problem001 []
+  (sum-multiples 3 5 1000))
+
 (defn main []
-  (print (sum-multiples 3 5 1000)))
+  (print (problem001)))
 
 (main)

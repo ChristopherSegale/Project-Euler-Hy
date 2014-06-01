@@ -28,8 +28,11 @@
 	    (.pop fibs)
             fibs)])))
 
-(defn main []
+(defn problem002 []
   (let [[fibs (gen-fibs 4000000)]]
-    (print (sum (list-comp n [n fibs] (evenp n))))))
+    (sum (list-comp n [n fibs] (evenp n)))))
+
+(defn main []
+  (print (problem002)))
 
 (main)
